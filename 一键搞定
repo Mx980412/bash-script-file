@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+mkdir $1
+cd $1
+touch index.html style.css main.js
+echo -e "<!DOCTYPE html>\n<h1>hello word</h1>\n</html>" >> index.html
